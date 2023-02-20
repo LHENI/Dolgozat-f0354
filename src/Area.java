@@ -9,9 +9,9 @@
 */
 
 public class Area {
-    public double Area(double number1, double number2){
-        double restresult = number1*number2;
+    public double calcArea(double sideA, double sideB){
+        double restresult = sideA*sideB;
         double result = restresult * 2;
-        return 0;
+        return result;
     }
 }
